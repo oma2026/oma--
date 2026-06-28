@@ -4,7 +4,7 @@ cd "$(dirname "$0")"
 
 clear
 echo "========================================"
-echo " 二手車進口報價系統 v1.10 - 一鍵啟動"
+echo " 進口報價系統二手車 v1.10 - 一鍵啟動"
 echo " 多人登入版：完稅價格修正版"
 echo "========================================"
 
@@ -28,6 +28,5 @@ echo ""
 echo "啟動系統中，瀏覽器將自動開啟。"
 echo "本機網址：http://localhost:8501"
 echo "多人使用：請讓其他業務連到這台電腦的區網 IP，例如 http://主機IP:8501"
-echo "預設老闆帳號 darren / 密碼 oma1688；業務密碼預設 1234。"
 echo ""
 python -m streamlit run app.py --server.address 0.0.0.0 --server.port 8501
