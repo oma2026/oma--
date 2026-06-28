@@ -1,0 +1,105 @@
+{
+  "app_settings": {
+    "version": "v1.11 業務隱藏公式輔助版",
+    "multi_user_enabled": true,
+    "admin_password": "oma1688"
+  },
+  "users": [
+    {
+      "username": "darren",
+      "display_name": "老闆",
+      "role": "admin",
+      "password": "oma1688",
+      "enabled": true
+    },
+    {
+      "username": "peter",
+      "display_name": "Peter",
+      "role": "sales",
+      "password": "1234",
+      "enabled": true
+    },
+    {
+      "username": "cbc",
+      "display_name": "CBC",
+      "role": "sales",
+      "password": "1234",
+      "enabled": true
+    },
+    {
+      "username": "lai",
+      "display_name": "Lai",
+      "role": "sales",
+      "password": "1234",
+      "enabled": true
+    },
+    {
+      "username": "gary",
+      "display_name": "Gary",
+      "role": "sales",
+      "password": "1234",
+      "enabled": true
+    }
+  ],
+  "quote_settings": {
+    "basic_vehicle_test_fee": 80000,
+    "cleaning_fee": 30000,
+    "customs_trucking_fee": 30000,
+    "sales_admin_fixed_profit_fee": 80000,
+    "other_fee_default": 0,
+    "normal_multiplier": 1.07,
+    "cash_multiplier": 1.05,
+    "customs_rate_under_2000": 0.545,
+    "customs_rate_over_2000": 0.61,
+    "customs_add_amount_foreign": 1500,
+    "luxury_tax_threshold": 3000000,
+    "luxury_tax_rate": 0.1
+  },
+  "currencies": [
+    "USD",
+    "EUR",
+    "JPY",
+    "KRW",
+    "CAD",
+    "TWD"
+  ],
+  "source_countries": [
+    "美國",
+    "德國",
+    "日本",
+    "韓國",
+    "加拿大"
+  ],
+  "shipping_settings": [
+    {
+      "source_country": "美國",
+      "default_currency": "USD",
+      "default_fee": 0,
+      "enabled": true
+    },
+    {
+      "source_country": "德國",
+      "default_currency": "EUR",
+      "default_fee": 0,
+      "enabled": true
+    },
+    {
+      "source_country": "日本",
+      "default_currency": "JPY",
+      "default_fee": 0,
+      "enabled": true
+    },
+    {
+      "source_country": "韓國",
+      "default_currency": "USD",
+      "default_fee": 0,
+      "enabled": true
+    },
+    {
+      "source_country": "加拿大",
+      "default_currency": "CAD",
+      "default_fee": 0,
+      "enabled": true
+    }
+  ]
+}
