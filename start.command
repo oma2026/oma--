@@ -29,4 +29,4 @@ echo "啟動系統中，瀏覽器將自動開啟。"
 echo "本機網址：http://localhost:8501"
 echo "多人使用：請讓其他業務連到這台電腦的區網 IP，例如 http://主機IP:8501"
 echo ""
-python -m streamlit run app.py --server.address 0.0.0.0 --server.port 8501
+python run_app.py
